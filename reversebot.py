@@ -3,7 +3,7 @@ from discord.ext import commands, tasks
 import random
 from itertools import cycle
 import os
-
+ 
 
 
 client = commands.Bot(command_prefix="!", intents=discord.Intents.all())
