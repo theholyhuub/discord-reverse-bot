@@ -27,8 +27,9 @@ async def on_message(message):
         reversed_message = message.content[::-1]
         await message.channel.send(reversed_message)
 
-
-
-
+if ("there is a secret command you know:]") in message.content:
+        print("]: wonk uoy dnammoc terces a si ereht")
+        
+        await client.close()
 
 client.run("put your own webhook here!")
